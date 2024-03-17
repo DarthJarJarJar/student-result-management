@@ -1,38 +1,31 @@
-# create-svelte
+# Build Instructions for Student Result Management System
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+This uses SvelteKit and SQLite. The database is stored in the database directory, and it is initialized with all the necessary tables
 
-## Creating a project
+To build and run the Student Result Management System, follow these steps:
 
-If you're seeing this, you've probably already done this step. Congrats!
+1. Clone this repository:
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+    ```bash
+    git clone https://github.com/DarthJarJarJar/student-result-management
+    ```
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+2. Navigate into the project directory:
 
-## Developing
+    ```bash
+    cd student-result-management
+    ```
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+3. Install dependencies using npm:
 
-```bash
-npm run dev
+    ```bash
+    npm install
+    ```
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+4. Start the development server:
 
-## Building
+    ```bash
+    npm run dev
+    ```
 
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+Now, you should be able to access the Student Result Management System in your browser.
