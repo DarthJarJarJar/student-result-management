@@ -1,6 +1,6 @@
 # Build Instructions for Student Result Management System
 
-This uses SvelteKit and SQLite. The database is stored in the database directory, and it is initialized with all the necessary tables
+This uses SvelteKit and SQLite. The database is stored in the database directory, and it is initialized with all the necessary tables. Please make sure that you have the latest versions of node and npm installed.
 
 To build and run the Student Result Management System, follow these steps:
 
